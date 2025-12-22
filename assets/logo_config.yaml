@@ -1,0 +1,17 @@
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.svg"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/logo.svg"
+  windows:
+    generate: true
+    image_path: "assets/logo.svg"
+  macos:
+    generate: true
+    image_path: "assets/logo.svg"
+  linux:
+    generate: true
+    image_path: "assets/logo.svg"
