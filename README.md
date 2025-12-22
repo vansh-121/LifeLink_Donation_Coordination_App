@@ -9,6 +9,18 @@ LifeLink is an offline mobile application for donor registration and donation re
 - **Donation Request Creation**: Create blood/organ donation requests with medical documentation
 - **Donor Matching**: Automatically match donors based on blood group, location, and availability
 
+## Screenshots
+
+| Welcome Screen | Donor Registration | Donation Request |
+|:---:|:---:|:---:|
+| <img src="screenshots/Screenshot_2025-12-22-15-54-36-708_com.example.lifelink_donation_app.jpg" width="250"> | <img src="screenshots/Screenshot_2025-12-22-16-04-39-383_com.example.lifelink_donation_app.jpg" width="250"> | <img src="screenshots/Screenshot_2025-12-22-16-04-42-527_com.example.lifelink_donation_app.jpg" width="250"> |
+| Entry point with registration and request options | Complete donor registration form | Create donation requests with details |
+
+| Donor Matching | Matched Details |
+|:---:|:---:|
+| <img src="screenshots/Screenshot_2025-12-22-16-05-22-174_com.example.lifelink_donation_app.jpg" width="250"> | <img src="screenshots/Screenshot_2025-12-22-16-05-27-804_com.example.lifelink_donation_app.jpg" width="250"> |
+| View matched donors by criteria | Detailed donor contact information |
+
 ## Technical Specifications
 
 ### Platform & SDK Version
@@ -410,33 +422,6 @@ adb shell run-as com.example.lifelink_donation_app cat app_flutter/donors.json
 **Issue**: "App crashes on launch"
 - **Solution**: Check Flutter doctor for environment issues
 - View logs with `flutter logs`
-
-## Screenshots
-
-### 1. Welcome Screen
-<img src="screenshots/Screenshot_2025-12-22-15-54-36-708_com.example.lifelink_donation_app.jpg" width="300" alt="Welcome Screen">
-
-The entry point of the app with options to register as a donor or create a donation request.
-
-### 2. Donor Registration Screen
-<img src="screenshots/Screenshot_2025-12-22-16-04-39-383_com.example.lifelink_donation_app.jpg" width="300" alt="Donor Registration Screen">
-
-Complete form for registering donors with medical and contact information, image uploads, and availability toggle.
-
-### 3. Create Donation Request Screen
-<img src="screenshots/Screenshot_2025-12-22-16-04-42-527_com.example.lifelink_donation_app.jpg" width="300" alt="Create Donation Request Screen">
-
-Form to create blood/organ donation requests with patient details, medical documentation, and priority level.
-
-### 4. Donor Matching Screen
-<img src="screenshots/Screenshot_2025-12-22-16-05-22-174_com.example.lifelink_donation_app.jpg" width="300" alt="Donor Matching Screen">
-
-Displays matched donors based on blood group, location, and availability status with emergency priority handling.
-
-### 5. Matched Donor Details
-<img src="screenshots/Screenshot_2025-12-22-16-05-27-804_com.example.lifelink_donation_app.jpg" width="300" alt="Matched Donor Details">
-
-Detailed view of matched donors showing donor information and contact details for coordination.
 
 ## Submission Checklist
 - ✅ Source code (complete project folder)
