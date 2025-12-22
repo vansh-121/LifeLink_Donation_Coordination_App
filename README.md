@@ -16,7 +16,7 @@ LifeLink is an offline mobile application for donor registration and donation re
 | <img src="screenshots/Screenshot_2025-12-22-15-54-36-708_com.example.lifelink_donation_app.jpg" width="250"> | <img src="screenshots/Screenshot_2025-12-22-16-04-39-383_com.example.lifelink_donation_app.jpg" width="250"> | <img src="screenshots/Screenshot_2025-12-22-16-04-42-527_com.example.lifelink_donation_app.jpg" width="250"> |
 | Entry point with registration and request options | Complete donor registration form | Create donation requests with details |
 
-| Donor Matching | Matched Details |
+| Donor Request Creation | Matched Details |
 |:---:|:---:|
 | <img src="screenshots/Screenshot_2025-12-22-16-05-22-174_com.example.lifelink_donation_app.jpg" width="250"> | <img src="screenshots/Screenshot_2025-12-22-16-05-27-804_com.example.lifelink_donation_app.jpg" width="250"> |
 | View matched donors by criteria | Detailed donor contact information |
