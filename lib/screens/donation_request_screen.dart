@@ -155,7 +155,7 @@ class _DonationRequestScreenState extends State<DonationRequestScreen> {
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : SingleChildScrollView(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 32.0),
               child: Form(
                 key: _formKey,
                 child: Column(
@@ -343,6 +343,7 @@ class _DonationRequestScreenState extends State<DonationRequestScreen> {
                         style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                       ),
                     ),
+                    SizedBox(height: MediaQuery.of(context).padding.bottom + 16),
                   ],
                 ),
               ),

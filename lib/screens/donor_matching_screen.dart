@@ -172,7 +172,12 @@ class _DonorMatchingScreenState extends State<DonorMatchingScreen> {
                             Expanded(
                               child: ListView.builder(
                                 itemCount: _matchedDonors.length,
-                                padding: const EdgeInsets.symmetric(horizontal: 16),
+                                padding: EdgeInsets.fromLTRB(
+                                  16,
+                                  0,
+                                  16,
+                                  MediaQuery.of(context).padding.bottom + 16,
+                                ),
                                 itemBuilder: (context, index) {
                                   final donor = _matchedDonors[index];
                                   return _buildDonorCard(donor);
