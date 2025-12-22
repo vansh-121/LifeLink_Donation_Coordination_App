@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 import 'screens/welcome_screen.dart';
+import 'services/local_storage_service.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Initialize local storage service
+  final storageService = LocalStorageService();
+  await storageService.initializeStorage();
+
   runApp(const MyApp());
 }
 
@@ -20,9 +27,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
         inputDecorationTheme: InputDecorationTheme(
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(8),
-          ),
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
           filled: true,
           fillColor: Colors.grey.shade50,
         ),

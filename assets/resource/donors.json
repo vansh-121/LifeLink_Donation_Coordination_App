@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "name": "Rajesh Kumar",
+    "bloodGroup": "O+",
+    "city": "Mumbai",
+    "phoneNumber": "+91 98765 43210",
+    "availabilityStatus": true,
+    "lastDonationDate": "2025-10-15"
+  },
+  {
+    "name": "Priya Sharma",
+    "bloodGroup": "A+",
+    "city": "Delhi",
+    "phoneNumber": "+91 98765 43211",
+    "availabilityStatus": true,
+    "lastDonationDate": "2025-09-20"
+  },
+  {
+    "name": "Amit Patel",
+    "bloodGroup": "B+",
+    "city": "Mumbai",
+    "phoneNumber": "+91 98765 43212",
+    "availabilityStatus": true,
+    "lastDonationDate": "2025-08-10"
+  },
+  {
+    "name": "Sneha Reddy",
+    "bloodGroup": "AB+",
+    "city": "Bangalore",
+    "phoneNumber": "+91 98765 43213",
+    "availabilityStatus": true,
+    "lastDonationDate": "2025-11-05"
+  },
+  {
+    "name": "Vikram Singh",
+    "bloodGroup": "O-",
+    "city": "Delhi",
+    "phoneNumber": "+91 98765 43214",
+    "availabilityStatus": false,
+    "lastDonationDate": "2025-12-01"
+  }
+]
