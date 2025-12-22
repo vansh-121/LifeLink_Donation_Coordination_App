@@ -13,7 +13,8 @@ LifeLink is an offline mobile application for donor registration and donation re
 
 Watch the complete app demonstration:
 
-https://github.com/vansh-121/LifeLink_Donation_Coordination_App/assets/Screenrecorder-2025-12-22-17-07-23-58.mp4
+https://github.com/user-attachments/assets/1a1511ff-c6b6-46c9-8c8f-b6f9da620c8e
+
 
 *The video showcases all major features including donor registration, donation request creation, and donor matching functionality.*
 
