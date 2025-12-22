@@ -9,6 +9,14 @@ LifeLink is an offline mobile application for donor registration and donation re
 - **Donation Request Creation**: Create blood/organ donation requests with medical documentation
 - **Donor Matching**: Automatically match donors based on blood group, location, and availability
 
+## Demo Video
+
+Watch the complete app demonstration:
+
+https://github.com/vansh-121/LifeLink_Donation_Coordination_App/assets/Screenrecorder-2025-12-22-17-07-23-58.mp4
+
+*The video showcases all major features including donor registration, donation request creation, and donor matching functionality.*
+
 ## Screenshots
 
 | Welcome Screen | Donor Registration | Donation Request |
