@@ -69,3 +69,21 @@ JSON :
 Local JSON must be included under assets/resourceaa
 
 
+Instructions to submit :-
+
+1. Prepare submission folder as 
+
+Source code + build artifact(apk)+ README+ screenshots
+
+2. File naming convention : XX_Lifelink_App.apk
+
+Local json must be included under assets/resources
+
+README must include steps to build the app from source code, target platform/SDK version, any other relevant info
+
+Local json parsing approach and where the file is stored on storage schema (table/fields) and how images are saved
+
+Permissions used and how denial states are handled 
+
+
+
